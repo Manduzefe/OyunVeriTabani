@@ -170,17 +170,6 @@ Bilgiler hatalı veya eksik girilirse:
 
 ---
 
-## ⚙️ Kullanım Talimatları
-
-### Gereksinimler
-- Python 3.10 veya üzeri
-- `tkinter` modülü (Python ile birlikte gelir)
-
-### Çalıştırmak için:
-```bash
-python main.py
-```
-
 ### Kullanım Adımları:
 1. Oyun bilgilerini yaz (isim, tür, platform, puan).
 2. “Oyun Ekle” butonuna tıkla.
