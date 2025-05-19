@@ -3,7 +3,7 @@
 ## 📌 Proje Tanımı
 Bu uygulama, bir oyuncunun sahip olduğu oyunları sistematik bir şekilde kaydetmesini ve yönetmesini sağlar. Kullanıcılar arayüz üzerinden oyun adı, türü, platformu ve puan bilgisi girerek kendi koleksiyonlarını oluşturabilir.
 
-Program nesne yönelimli programlama (OOP) prensiplerine uygun şekilde Python dilinde geliştirilmiştir ve `tkinter` arayüz kütüphanesi ile görselleştirilmiştir.
+Bu Proje Python dilinde geliştirilmiştir ve `tkinter` arayüz kütüphanesi ile görselleştirilmiştir.
 
 ---
 
