@@ -67,20 +67,102 @@ Uygulamayı kullanan kişiyi temsil eder.
 Oyun Eklemme:
 ![Oyun Ekleme](https://github.com/user-attachments/assets/36ab7c39-c0d5-411d-9722-c572dc0aff31)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Oyun Silme:
 ![Oyun Silme](https://github.com/user-attachments/assets/977c58f0-a67d-40bf-8d0d-d4228e36c7af)
 ![Oyun silme sonrası](https://github.com/user-attachments/assets/2a4afd5c-9e66-45c0-bf2c-5bdf17e6691b)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Puan Ekleme yanlış girilirse:
 ![Puan kısmına yanlış birşey girilirse](https://github.com/user-attachments/assets/ea5369da-93b6-4f2f-969a-b6685086c7c1)
+
+
+
+
+
+
+
+
+
+
+
 
 Koleksiyon Girdileri:
 ![Koleksiyonu göstere basıldığında](https://github.com/user-attachments/assets/c119a1f1-c3ef-4254-a659-cdbf00e2df4f)
 
+
+
+
+
+
+
+
+
+
+
+
+
 ![Koleksiyona göstere basıldığında ama oyun olmadığında](https://github.com/user-attachments/assets/c9028fff-7d78-4529-afad-b332cb1f6f35)
+
+
+
+
+
+
+
+
+
+
 
 Bilgiler hatalı veya eksik girilirse:
 ![Bilgiler hatalı veya eksik girildiyse](https://github.com/user-attachments/assets/050b1e07-b40b-47fe-8f5f-9925c4b1ff6d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Ekstra:**
 - Yatay ve dikey scroll destekli geniş oyun listesi alanı
