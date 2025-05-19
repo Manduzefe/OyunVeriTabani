@@ -64,7 +64,11 @@ Uygulamayı kullanan kişiyi temsil eder.
 - 📋 `Koleksiyonu Göster`: Tüm oyunları listeler.
 
 **Fotoğraflar:**
-Oyun Eklemme:
+Oyun Eklemme:  
+
+
+
+
 ![Oyun Ekleme](https://github.com/user-attachments/assets/36ab7c39-c0d5-411d-9722-c572dc0aff31)
 
 
@@ -85,7 +89,22 @@ Oyun Eklemme:
 
 
 Oyun Silme:
+
+
+
+
+
+
 ![Oyun Silme](https://github.com/user-attachments/assets/977c58f0-a67d-40bf-8d0d-d4228e36c7af)
+
+
+
+
+
+
+
+
+
 ![Oyun silme sonrası](https://github.com/user-attachments/assets/2a4afd5c-9e66-45c0-bf2c-5bdf17e6691b)
 
 
@@ -103,6 +122,18 @@ Oyun Silme:
 
 
 Puan Ekleme yanlış girilirse:
+
+
+
+
+
+
+
+
+
+
+
+
 ![Puan kısmına yanlış birşey girilirse](https://github.com/user-attachments/assets/ea5369da-93b6-4f2f-969a-b6685086c7c1)
 
 
@@ -117,6 +148,16 @@ Puan Ekleme yanlış girilirse:
 
 
 Koleksiyon Girdileri:
+
+
+
+
+
+
+
+
+
+
 ![Koleksiyonu göstere basıldığında](https://github.com/user-attachments/assets/c119a1f1-c3ef-4254-a659-cdbf00e2df4f)
 
 
@@ -144,6 +185,20 @@ Koleksiyon Girdileri:
 
 
 Bilgiler hatalı veya eksik girilirse:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![Bilgiler hatalı veya eksik girildiyse](https://github.com/user-attachments/assets/050b1e07-b40b-47fe-8f5f-9925c4b1ff6d)
 
 
@@ -160,9 +215,37 @@ Bilgiler hatalı veya eksik girilirse:
 
 
 
+| Bileşen           | Açıklama                                                           |
+| ----------------- | ------------------------------------------------------------------ |
+| `class Oyun`      | Tek bir oyunu temsil eder (ad, tür, platform, puan listesi içerir) |
+| `__init__()`      | Oyun adı, türü, platformu tanımlar ve boş puan listesi oluşturur   |
+| `değerlendir()`   | Oyuna puan ekler (listeye)                                         |
+| `ortalama_puan()` | Girilen puanların ortalamasını hesaplar                            |
+| `__str__()`       | Oyunun bilgilerini formatlı şekilde string'e çevirir               |
 
+| Bileşen            | Açıklama                                          |
+| ------------------ | ------------------------------------------------- |
+| `class Koleksiyon` | Kullanıcının tüm oyunlarını tutar                 |
+| `oyun_ekle()`      | Koleksiyona yeni bir oyun ekler                   |
+| `oyun_sil()`       | Koleksiyondan istenen oyunu siler                 |
+| `listele()`        | Tüm oyunları string olarak liste halinde döndürür |
 
+| Bileşen             | Açıklama                                                           |
+| ------------------- | ------------------------------------------------------------------ |
+| `class Oyuncu`      | Oyuncuyu temsil eder, bir adet `Koleksiyon` barındırır             |
+| `favorilere_ekle()` | Oyunu koleksiyona ekler (zaten varsa tekrar eklemez)               |
+| `oyun_oner()`       | Türüne göre oyun önerisi yapar (aynı türe sahip olanları listeler) |
 
+| Bileşen                        | Açıklama                                                              |
+| ------------------------------ | --------------------------------------------------------------------- |
+| `class OyunArayuz`             | Tkinter tabanlı kullanıcı arayüzünü temsil eder                       |
+| `Entry` alanları               | Oyun adı, türü, platformu ve puanı kullanıcıdan almak için kullanılır |
+| `Listbox`                      | Eklenen oyunların listelendiği alan (scrollbar destekli)              |
+| `Button`'lar                   | Ekleme, silme, gösterme işlevlerini tetikler                          |
+| `guncelle_listbox()`           | Liste kutusunu günceller                                              |
+| `kullanici_girdisi_ile_ekle()` | Giriş kutularından bilgileri alarak koleksiyona oyun ekler            |
+| `koleksiyondan_sil()`          | Seçilen oyunu siler                                                   |
+| `koleksiyonu_goster()`         | Tüm oyunları popup olarak gösterir                                    |
 
 **Ekstra:**
 - Yatay ve dikey scroll destekli geniş oyun listesi alanı
