@@ -189,11 +189,5 @@ python main.py
 
 ---
 
-## ℹ️ Ek Bilgiler
-- Puan boş girilirse ya da 0-10 aralığında değilse sistem uyarı verir.
-- Eklenen oyunlar bellekte tutulur, uygulama kapanınca sıfırlanır.
-- Kodlar sade, anlaşılır ve OOP yapısına %100 uyumludur.
-
 ---
 ‍💻 Hazırlayan: Ömer Efe Manduz  
-🗓️ Tarih: 2025
